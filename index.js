@@ -2,6 +2,9 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
+//connection to mongodb 
+const mongoose = require('./db/config')
+
 //importation des controlleurs
 const userController = require('./controllers/userController')
 const taskController = require('./controllers/taskController')

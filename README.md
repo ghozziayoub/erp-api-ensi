@@ -45,3 +45,26 @@
 - /update_state/:task_id - PTACH
 - /update_content/:task_id - PATCH
 - /delete/:task_id - DELETE
+
+# MONGO DB LINKS
+[] - SGBD MONGODB : https://www.mongodb.com/try/download/community?tck=docs_server
+
+- NB : Décocher case install mongodb compass
+
+[] - MONGODB COMPASS : https://www.mongodb.com/try/download/compass
+
+- ATLAS : https://www.mongodb.com/cloud/atlas
+
+# connect to mongodb
+- mongodb
+- mongoose ( ODM )
+- ODM = Object Document Mapping
+- Mapping bin Model wel Collection
+- Model User <=> users
+- NoSQL ( Base de données )
+- Tables <=> Collections [ tableau des objets JSON ]
+- Lignes <=> Documents
+- Cols <=> Attributs
+
+# bcryptjs
+- t5alina nhashiw ay donnée
