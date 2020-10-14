@@ -30,7 +30,7 @@
 
 # User contrller
 - [X] /add - POST
-- /login - POST
+- [X] /login - POST
 - [X] /all - GET // yraj3lna liste des membres
 - [X] /allUsers - GET //yrja3 el users lkol
 - [X] /one/:id - GET
@@ -39,13 +39,13 @@
 - [X] /delete/:id - DELETE
 
 # Task controller
-- /add - POST
-- /all - GET
-- /all/:member_id - GET
-- /one/:task_id - GET
-- /update_state/:task_id - PTACH
-- /update_content/:task_id - PATCH
-- /delete/:task_id - DELETE
+- [] /add - POST
+- [] /all - GET
+- [] /all/:member_id - GET
+- [] /one/:task_id - GET
+- [] /update_state/:task_id - PTACH
+- [] /update_content/:task_id - PATCH
+- [] /delete/:task_id - DELETE
 
 # MONGO DB LINKS
 [] - SGBD MONGODB : https://www.mongodb.com/try/download/community?tck=docs_server
@@ -69,3 +69,6 @@
 
 # bcryptjs
 - t5alina nhashiw ay donnée
+
+# jsonwebtoken
+- gestion mta3 les tokens
