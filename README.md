@@ -29,13 +29,14 @@
 - npm install
 
 # User contrller
-- /add - POST
+- [X] /add - POST
 - /login - POST
-- /all - GET
-- /one/:id - GET
-- /update_account_state - PTACH
-- /update_info/:id - PATCH
-- /delete/:id - DELETE
+- [X] /all - GET // yraj3lna liste des membres
+- [X] /allUsers - GET //yrja3 el users lkol
+- [X] /one/:id - GET
+- [X] /update_account_state - PTACH
+- [X] /update_info/:id - PATCH
+- [X] /delete/:id - DELETE
 
 # Task controller
 - /add - POST
