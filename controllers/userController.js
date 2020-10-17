@@ -36,7 +36,7 @@ app.post('/add', (req, res) => {
     //envoi vers le front Response fiha résultat mta3 l'enregistrement
 
     user.save()
-        .then(() => {
+        .then((savedUser) => {
             res.status(201).send({ msg: "Member added !" })
         })
         .catch((error) => {

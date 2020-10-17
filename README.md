@@ -39,13 +39,13 @@
 - [X] /delete/:id - DELETE
 
 # Task controller
-- [] /add - POST
-- [] /all - GET
-- [] /all/:member_id - GET
-- [] /one/:task_id - GET
-- [] /update_state/:task_id - PTACH
-- [] /update_content/:task_id - PATCH
-- [] /delete/:task_id - DELETE
+- [X] /add - POST
+- [X] /all - GET
+- [X] /all/:member_id - GET
+- [X] /one/:task_id - GET
+- [X] /update_state/:task_id - PTACH
+- [X] /update_content/:task_id - PATCH
+- [X] /delete/:task_id - DELETE
 
 # MONGO DB LINKS
 [] - SGBD MONGODB : https://www.mongodb.com/try/download/community?tck=docs_server

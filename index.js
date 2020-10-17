@@ -1,6 +1,7 @@
 //importation des bibliotheques
 const express = require('express')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 
 //connection to mongodb 
 const mongoose = require('./db/config')
@@ -11,6 +12,7 @@ const taskController = require('./controllers/taskController')
 
 const app = express()
 
+app.use(cors())
 app.use(bodyParser.json())
 
 app.use('/user', userController)
