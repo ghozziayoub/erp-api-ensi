@@ -12,7 +12,7 @@ const taskController = require('./controllers/taskController')
 
 const app = express()
 
-const port = 3100 || process.env.PORT
+const port = process.env.PORT || 3100  
 
 app.use(cors())
 app.use(bodyParser.json())
