@@ -72,3 +72,13 @@
 
 # jsonwebtoken
 - gestion mta3 les tokens
+
+# EL AFTER
+- Documentation : https://swagger.io/ || POSTMAN
+- FILES : multer
+- Chart : Front => ChartJS
+- Notification , Chat => socket.io
+- ExpressJS , middleware
+- Architecture micro service
+- ES2020
+- contact@formalab.tn
