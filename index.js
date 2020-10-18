@@ -12,6 +12,8 @@ const taskController = require('./controllers/taskController')
 
 const app = express()
 
+const port = 3100 || process.env.PORT
+
 app.use(cors())
 app.use(bodyParser.json())
 
@@ -22,4 +24,4 @@ app.get('/', (req, res) => {
     res.status(200).send("Welcome to the server !")
 })
 
-app.listen(3100, () => console.log("Server started"))
+app.listen(port, () => console.log("Server started"))
