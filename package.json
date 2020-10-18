@@ -4,7 +4,7 @@
   "description": "- creation d'un serveur\r - creation des APIs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
